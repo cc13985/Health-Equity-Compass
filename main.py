@@ -17,7 +17,6 @@ def main():
 
     data_processor = DataProcessor(health_centers, population_metrics_census_tract, population_metrics_citywide, citywide_disparity, health_of_city)
 
-    #code to call method(s) to process data go here
     print(data_processor.health_centers)
     print(data_processor.population_metrics_census_tract)
     print(data_processor.population_metrics_citywide)
