@@ -6,5 +6,3 @@ class DataProcessor(object):
         self.population_metrics_citywide = population_metrics_citywide.read()
         self.citywide_disparity = citywide_disparity.read()
         self.health_of_city = health_of_city.read()
-
-    # methods to process data go here
