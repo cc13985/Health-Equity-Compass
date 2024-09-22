@@ -2,6 +2,8 @@
 ## Inspiration 💡
 Our project, **Health Equity Compass** 🧭, is driven by the need to address healthcare disparities that disproportionately affect marginalized communities. Access to healthcare 🏥 is unequal across different demographics and regions, leading to disparities in health outcomes. We wanted to create a tool that helps visualize these inequities, offering public health organizations and policymakers actionable insights to improve healthcare access for all. This software is mainly targeted towards local government and public health organizations to educate and bring to light the disparities in access and quality of healthcare in local areas. The goal is to raise enough awareness as a call to action for the changemakers in our society to use their power to improve the wellbeing of the general public.
 
+![dove](/img/Dove.png)
+
 ## What it does ⚕️
 Health Equity Compass 🧭 is an interactive platform designed to track and analyze healthcare disparities across different geographic regions. It allows users to:
 - Explore healthcare center distribution across zip codes
@@ -10,6 +12,9 @@ Health Equity Compass 🧭 is an interactive platform designed to track and anal
 - Learn about case studies from existing datasets
 - Search for specific regions or demographics to assess healthcare access
 - View educational resources on health equity and actionable insights to promote better healthcare allocation
+
+![graph1](/img/hec1.png)
+![app](/img/ss.png)
 
 ## How we built it ⚒️
 We used:
