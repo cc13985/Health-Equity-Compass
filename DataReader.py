@@ -14,10 +14,15 @@ class DataReader(object):
             for line in f:
                 tokens = [token.strip() for token in line.split(',')]
                 record = {}
-                for i in range(len(tokens)):
+                limit = len(headers)
+                if len(headers) > len(tokens):
+                    limit = len(tokens)
+                for i in range(limit):
                     value = tokens[i]
-                    if headers[i] != 'zip' and re.match('\d+(\.\d*)?', value):
+                    try:
                         value = float(value)
+                    except:
+                        value = tokens[i]
                     if value == '':
                         value = 0
                     record[headers[i]] = value

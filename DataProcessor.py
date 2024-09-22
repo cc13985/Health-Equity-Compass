@@ -1,7 +1,6 @@
 class DataProcessor(object):
 
-    def __init__(self, health_centers, population_metrics_census_tract, population_metrics_citywide, citywide_disparity,
-                 health_of_city):
+    def __init__(self, health_centers, population_metrics_census_tract, population_metrics_citywide, citywide_disparity, health_of_city):
         self.health_centers = health_centers.read()
         self.population_metrics_census_tract = population_metrics_census_tract.read()
         self.population_metrics_citywide = population_metrics_citywide.read()

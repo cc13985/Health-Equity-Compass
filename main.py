@@ -15,13 +15,14 @@ def main():
     citywide_disparity = DataReader(citywide_disparity_filename)
     health_of_city = DataReader(health_of_city_filename)
 
-    data_processor = None
-    try:
-        data_processor = DataProcessor(health_centers, population_metrics_census_tract, population_metrics_citywide, citywide_disparity, health_of_city)
-    except:
-        print('Error: One or more of the provided files cannot be opened or read')
+    data_processor = DataProcessor(health_centers, population_metrics_census_tract, population_metrics_citywide, citywide_disparity, health_of_city)
 
     #code to call method(s) to process data go here
+    print(data_processor.health_centers)
+    print(data_processor.population_metrics_census_tract)
+    print(data_processor.population_metrics_citywide)
+    print(data_processor.citywide_disparity)
+    print(data_processor.health_of_city)
 
 if __name__ == '__main__':
     main()
