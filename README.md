@@ -1,4 +1,6 @@
 # Health Equity Compass
+By Claire Chen, Stephen Wu, Katherine Zhang
+
 ## Inspiration 💡
 Our project, **Health Equity Compass** 🧭, is driven by the need to address healthcare disparities that disproportionately affect marginalized communities. Access to healthcare 🏥 is unequal across different demographics and regions, leading to disparities in health outcomes. We wanted to create a tool that helps visualize these inequities, offering public health organizations and policymakers actionable insights to improve healthcare access for all. This software is mainly targeted towards local government and public health organizations to educate and bring to light the disparities in access and quality of healthcare in local areas. The goal is to raise enough awareness as a call to action for the changemakers in our society to use their power to improve the wellbeing of the general public.
 
@@ -29,6 +31,7 @@ We used:
 - **Scipy** for conducting statistical analyses
 - **Geopandas** for geospatial mapping of health centers
 - **Matplotlib** and **Seaborn** to create visualizations that highlight disparities in healthcare access
+- Public datasets from [openphillydata.org](https://opendataphilly.org/datasets/health-centers/)
 
 ## Challenges we ran into 🚧
 One of the major challenges we faced was aligning different data sources. Health centers were mapped by zip codes, while population data was segmented by census tracts. We had to find the most accurate and relevant data to our topic, and aggregating the data to find meaningful insights took great effort since we were comparing separate numbers, categories, and statistics. Determining the type of analysis, graphs, plots, and statistical tests was also a challenge on our part, as we had to take into account the type of data we were using, most of which was categorical, and apply the relevant test to draw conclusions from. 
