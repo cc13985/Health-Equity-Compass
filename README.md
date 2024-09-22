@@ -1,1 +1,1 @@
-# PennApps
+# Health Equity Compass
